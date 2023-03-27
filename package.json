@@ -1,0 +1,17 @@
+{
+  "name": "nasa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd ./back && npm start\" \"cd ./nasa-front-end && npm start\"",
+    "install": "concurrently \"cd ./back && npm install\" \"cd ./nasa-front-end && npm install\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
